@@ -1,0 +1,38 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #1867a9;
+    padding: 12px;
+    text-align: center;
+    height: auto;
+}
+header img
+{
+    width: 150px;
+}
+.navegacao
+{
+    padding: 20px;
+}
+.links
+{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.links:hover
+{
+    background-color: rgb(0, 204, 255);
+    padding: 10px;
+    border-radius: 15px 10px;
+}
+.atual
+{
+    background-color:rgb(0, 204, 255);
+    border-radius: 15px 10px;
+    padding: 10px;
+}
