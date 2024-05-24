@@ -9,11 +9,14 @@ header {
     padding: 12px;
     text-align: center;
     height: auto;
+    font-size: 30px;
 }
-header img
+.alinhar_centro
 {
     width: 150px;
+    margin-bottom: 20px;
 }
+
 .navegacao
 {
     padding: 20px;
