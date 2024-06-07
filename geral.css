@@ -33,16 +33,7 @@ header {
     /* define a margem em baixo como 20px */
     margin-bottom: 20px;
 }
-/* css classe relatos dentro da classe conteudo */
-.conteudo .relatos
-{
-    /* deixa o espaçamento em cima como 0 */
-    padding-top: 0px;
-    /* deixa o espaçamento em baixo como 0 */
-    padding-bottom: 0px;
-    /* deixa a margem em baixo como 0 */
-    margin-bottom: 0px;
-}
+
 /* css do h1 que esta na classe conteudo  */
 .conteudo h1
 {
