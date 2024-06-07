@@ -1,40 +1,143 @@
+/* aplica css em todos como padrão */
 *
 {
+    /* deixa a font_family como arial */
     font-family: Arial, Helvetica, sans-serif;
+    /* define margem como 0 */
     margin: 0;
+    /* define espaçamento como 0 */
     padding: 0;
 }
+/* css no header geral */
 header {
-    background: #1867a9;
+    /* define background como azul claro */
+    background: #2d8edd;
+    /* define padding como 12px */
     padding: 12px;
+    /* alinha os textos no centro da pagina */
     text-align: center;
+    /* deixa a altura como automatica */
     height: auto;
+    /* define o tamanho da fonte como 20 px */
     font-size: 20px;
 }
+/* css classe alinhar_centro*/
 .alinhar_centro
 {
+    /* alinha texto e conteudo no meio da pagina */
+    text-align: center;
+}
+/* css imagem dentro da classe alinhar_centro */
+.alinhar_centro img
+{
+    /* define a margem em baixo como 20px */
     margin-bottom: 20px;
 }
-
+/* css classe relatos dentro da classe conteudo */
+.conteudo .relatos
+{
+    /* deixa o espaçamento em cima como 0 */
+    padding-top: 0px;
+    /* deixa o espaçamento em baixo como 0 */
+    padding-bottom: 0px;
+    /* deixa a margem em baixo como 0 */
+    margin-bottom: 0px;
+}
+/* css do h1 que esta na classe conteudo  */
+.conteudo h1
+{
+    /* alinha os conteudos e textos no centro */
+    text-align: center;
+    /* define a margem em baixo como 10px */
+    margin-bottom: 10px;
+    /* deixa a cor do texto em azul */
+    color: rgb(31, 31, 151);
+}
+/* css do paragrafo dentro da classe conteudo */
+.conteudo p{
+    /* define o espaçamento em 10 px */
+    padding: 10px;
+}
+/* css do conteudo principal */
+main
+{
+    /* define a largura em 900px */
+    width: 900px;
+    /* define a margem em automatica */
+    margin: auto;
+}
+/* css do corpo da pagina */
+body
+{
+    /* define o background color como branco */
+    background-color: #dedee9;
+}
+/* css da classe conteudo */
+.conteudo
+{
+    /* define o background color como branco */
+    background-color: white;
+    /* define o espaçamento como 10px */
+    padding: 10px;
+    /* deixa o alinhamento como justificado */
+    text-align: justify;
+    /* deixa o tamanho da fonte como 20px */
+    font-size: 20px;
+    /* deixa a margem de baixo como 10px */
+    margin-bottom: 10px;
+    
+}
+/* css da classe navegacao */
 .navegacao
 {
+    /* deixa o espaçamento como 20px */
     padding: 20px;
 }
+/* css da classe links */
 .links
 {
+    /* deixa sem decoração o texto */
     text-decoration: none;
+    /* deixa a cor do texto como branca */
     color: white;
+    /* deixa o espaçamento como 20 px */
     padding: 20px;
 }
+/* css classe links após passar o mouse por cima */
 .links:hover
 {
+    /* deixa o background como azul claro */
     background-color: rgb(0, 204, 255);
+    /* deixa o espaçamento como 10px */
     padding: 10px;
+    /* deixa a borda arredondada */
     border-radius: 15px 10px;
 }
+/* css da classe atual */
 .atual
 {
+    /* deixa o background como azul claro */
     background-color:rgb(0, 204, 255);
-    border-radius: 15px 10px;   
+    /* deixa a borda arredondada */
+    border-radius: 15px 10px;
+    /* deixa o espaçamento como 10px */   
     padding: 10px;
+}
+/* css do footer geral */
+footer
+{
+    /* deixa o background como cinza claro */
+    background: #a2adb6;
+    /* alinha o conteudo no centro */
+    text-align: center;
+    /* limita a altura do footer em 150px */
+    height:150px;
+    /* deixa o espaçamento como 0px */ 
+    padding: 0px;
+    /* deixa o tamanho da fonte em 20 px */
+    font-size: 20px;
+    /* deixa a margem como 0 */
+    margin: 0;
+    
+
 }

@@ -1,0 +1,34 @@
+/* css do elemento th */
+th
+{
+    /* deixa o background em azul */
+    background-color: rgb(6, 94, 167);
+    /* deixa a cor do texto branca */
+    color: white;
+}
+/* css do elemento td */
+td
+{
+    /* deixa o background branco */
+    background-color: white;
+}
+/* css da classe tabela */
+.tabela
+{
+    /* alinha os elementos no centro */
+    text-align: center;
+}
+/* css do elemento table dentro da classe tabela */
+.tabela table
+{
+    /* define a margin de cima e embaixo como 0 e dos lados como 240px */
+    margin: 0 240px;
+    /* define a largura em 500px */
+    width: 500px;
+}
+/* css do id etecpoli */
+#etecpoli
+{
+    /* deixa os elementos no centro */
+    text-align: center;
+}

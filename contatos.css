@@ -1,0 +1,78 @@
+/* css do elemento h1 dentro da classe conteudo */
+.conteudo h1
+{
+    /* alinha o texto no centro */
+    text-align: center;
+}
+/* css do elemento h1 dentro do id formulario */
+#formulario h1
+{
+    /* alinha o texto no centro */
+    text-align: center;
+    /* deixa a cor do texto em azul escuro */
+    color: rgb(31, 31, 151);
+    /* deixa o tamanho da fonte em 30px */
+    font-size: 30px;
+    /* define a margem embaixo como 10px */
+    margin-bottom: 10px;
+}
+/* css do elemento h2 */
+h2
+{
+    /* define o display como inline */
+    display: inline;
+}
+/* css do elemento input */
+input
+{
+    /* deixa a largura em 500px */
+    width: 500px;
+    /* deixa a altura em 30px */
+    height: 30px;
+    /* deixa a borda arredondada */
+    border-radius: 10px;
+    /* deixa a margem do topo em 30px */
+    margin-top: 30px;
+}
+/* css do id local */
+#local
+{
+    /* alinha os elementos no centro */
+    text-align: center;
+    /* deixa a margem do topo em 30px */
+    margin-top: 30px;
+    /* deixa a margem de baixo em 20px */
+    margin-bottom: 20px;
+}
+/* css do id assunto */
+#assunto
+{
+    /* define a altura em 100px */
+    height: 100px;
+    /* deixa a borda arrendondada */
+    border-radius: 10px;
+    /* Deixa a margem da borda em 50px */
+    margin-bottom: 50px;
+}
+/* css do id botao */
+#botao
+{
+    /* deixa a borda arredondada */
+    border-radius: 20px;
+    /* define o background na cor azul */
+    background-color: rgb(57, 57, 199);
+    /* deixa o espaçamento em 15px */
+    padding: 15px;
+    /* deixa o tamanho da font em 20px */
+    font-size: 20px;
+    /* deixa a cor do texto como branco */
+    color: white;
+}
+/* css do id botão quando o mouse passa em cima */
+#botao:hover
+{
+    /* deixa o background como roxo */
+    background-color: rgb(168, 56, 202);
+    /* deixa a cor do texto preto */
+    color: black;
+}
